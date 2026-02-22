@@ -1,5 +1,48 @@
+
 public class OOPSBannerApp {
-public static void main(String[] args) {
-System.out.println("00PS");
-}
+
+    public static void main(String[] args) {
+
+        System.out.println(String.join(" ",
+                "  ***   ",
+                "  ***   ",
+                " *****  ",
+                " ***** "));
+
+        System.out.println(String.join(" ",
+                " *   *  ",
+                " *   *  ",
+                " *   *  ",
+                " *     "));
+
+        System.out.println(String.join(" ",
+                "*     * ",
+                "*     * ",
+                " *   *  ",
+                " *     "));
+
+        System.out.println(String.join(" ",
+                "*     * ",
+                "*     * ",
+                " *****  ",
+                " ***** "));
+
+        System.out.println(String.join(" ",
+                "*     * ",
+                "*     * ",
+                " *      ",
+                "     * "));
+
+        System.out.println(String.join(" ",
+                " *   *  ",
+                " *   *  ",
+                " *      ",
+                "     * "));
+
+        System.out.println(String.join(" ",
+                "  ***   ",
+                "  ***   ",
+                " *      ",
+                " ***** "));
+    }
 }
